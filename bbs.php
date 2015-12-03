@@ -19,7 +19,7 @@ if(isset($_POST)){
 	$stmt=$dbh->prepare($sql);
 	$stmt->execute();
 
-	$sql = 'SELECT * FROM `bbs` WHERE 1';  //データベースから情報、でーた　もってくる
+	$sql = 'SELECT * FROM `bbs` WHERE 1';  //データベースから情報、　データ持ってくる
 	$stmt = $dbh->prepare($sql);
 	$stmt->execute();
 
